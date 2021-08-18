@@ -5,7 +5,8 @@ import './plugins/element.js'
 import './assets/css/contain.css'
 
 import axios from 'axios'
-axios.defaults.baseURL = 'http://qgzx.scau.edu.cn:8070/'
+//基础地址
+axios.defaults.baseURL = ''
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false

@@ -93,7 +93,7 @@ export default {
         deleteRow(index, rows) {
             rows.splice(index, 1);
             this.$message({
-                type: "error",
+                type: "warning",
                 message: "已删除",
             });
         },

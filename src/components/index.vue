@@ -42,7 +42,7 @@
                 <el-main>
                     <router-view></router-view>
                 </el-main>
-                <el-footer>© 华农勤工网络部</el-footer>
+                <el-footer>© 2021</el-footer>
             </el-container>
         </el-container>
     </el-container>

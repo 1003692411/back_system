@@ -1,7 +1,7 @@
 <template>
     <div class="login_container">
         <div class="login_box">
-            <div class="login_title">i华农勤工后台管理</div>
+            <div class="login_title">后台管理</div>
             <!-- 登录主功能 -->
             <el-form class="login_form" :model="form" :rules="rules" ref="loginRef">
                 <!-- 账号 -->
