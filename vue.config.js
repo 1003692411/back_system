@@ -1,4 +1,7 @@
 module.exports = {
+  publicPath: './',
+  outputDir: 'dist',
+  assetsDir: 'static',
   lintOnSave: false, // eslint-loader 是否在保存的时候检查
   chainWebpack: config => {
     //发布
